@@ -26,7 +26,7 @@ while True:
             for id ,lm in enumerate(hand_landmark.landmark):
                 lm_list.append(lm)
 
-            #Matriz para almacenar "True" o "False" si el dedo está doblado  
+            #Arreglo para almacenar "True" o "False" si el dedo está doblado  
             finger_fold_status =[]
             for tip in finger_tips:
                 #Obteniendo las marcas de referencia de las posición de las puntas y dibujando un círculo azul
